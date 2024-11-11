@@ -1,0 +1,29 @@
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu-time h2,
+    .menu-score h2 {
+        font-size: 4vw;
+    }
+
+    .square {
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-time h2,
+    .menu-score h2 {
+        font-size: 5vw;
+    }
+
+    .square {
+        height: 25vw;
+        width: 25vw;
+    }
+}
