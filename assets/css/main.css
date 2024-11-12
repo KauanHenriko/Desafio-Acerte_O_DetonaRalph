@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url(/assets/img/wall.png);
+    background-image: url(assets/img/wall.png);
     background-size: cover;
     background-position: center;
 }
@@ -16,7 +16,7 @@
     background-color: #000000;
     color: #ffffff;
     border-bottom: 5px solid #ffd900;
-    padding: 0 20px; /* Adiciona espaço lateral */
+    padding: 0 20px;
 }
 
 .menu-lives {
@@ -50,6 +50,6 @@
 }
 
 .enemy {
-    background-image: url(/assets/img/ralph.png);
+    background-image: url(assets/img/ralph.png);
     background-size: cover;
 }
